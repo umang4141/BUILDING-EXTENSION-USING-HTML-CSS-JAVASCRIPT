@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="E:\JavaScript Learning\Build Chrome Extension\exte1.css">
+</head>
+
+<body>
+    <div id="container"></div>
+    <script src="E:\JavaScript Learning\Build Chrome Extension\ext2.js"></script>
+</body>
