@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="E:\JavaScript Learning\Build Chrome Extension\exte.css">
+</head>
+
+<body>
+    <input type="text" id="input-el">
+    <br>
+    <button id="input-btn">SAVE INPUT</button>
+    <ul id="ul-el"></ul>
+    <script src="E:\JavaScript Learning\Build Chrome Extension\ext1.js"></script>
+</body>
+
+</html>
