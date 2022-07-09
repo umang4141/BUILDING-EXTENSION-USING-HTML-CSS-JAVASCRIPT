@@ -1,0 +1,25 @@
+//function saveLead() {
+//  document.write("Button Clicked By saveLead function:");
+//}
+//Local storage only supports strings
+let myLeads = [];
+let inputel = document.getElementById("input-el");
+let inputbtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
+inputbtn.addEventListener("click", function() {
+        myLeads.push(inputel.value);
+        inputel.value = ""
+        renderLeads();
+    })
+    //Adding Elements to local storage.
+    //localStorage.setItem("Name", "Umang Pratap Singh");
+    //document.write(localStorage.getItem("Name"));
+    //localStorage.clear();
+
+function renderLeads() {
+    let listItems = "";
+    for (let i = 0; i < myLeads.length; i++) {
+        listItems += "<li><a target='_blank' href = '" + myLeads[i] + "'>" + myLeads[i] + "</a>";
+    }
+    ulEl.innerHTML = listItems;
+}
